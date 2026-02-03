@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>个人主页 | 资深产品经理 - Crypto Expert</title>
+  <meta name="description" content="资深产品经理 | 10年+ 经验 | 专注 CEX 平台、OTC、合规与产品架构。正在寻找下一个 Web3 挑战。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="个人主页 | 资深产品经理 - Crypto Expert" />
+  <meta property="og:description" content="资深产品经理 | 10年+ 经验 | 专注 CEX 平台、OTC、合规与产品架构。" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root{
+      --bg:#0a0a0a; --text:#e0e0e0; --accent:#f3ba2f; --muted:#848e9c;
+      --maxw:900px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      background:var(--bg); color:var(--text); line-height:1.6;-webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:24px;
+    }
+    .site{max-width:var(--maxw);margin:0 auto;padding:48px 20px}
+    a{color:var(--accent);text-decoration:none}
+    header{margin-bottom:40px}
+    h1{font-size:clamp(1.6rem,4vw,3rem);margin:0 0 8px;
+      background:linear-gradient(45deg,#fff,var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .tagline{color:var(--muted);font-size:clamp(.95rem,2.2vw,1.15rem)}
+    section{margin-bottom:40px}
+    h2{font-size:1.15rem;margin:0 0 18px;padding-left:12px;border-left:4px solid var(--accent)}
+    .skill-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+    .skill-item{background:#121212;padding:12px;border-radius:8px;border:1px solid #222;text-align:center;transition:transform .2s ease,border-color .2s}
+    .skill-item:hover{border-color:var(--accent);transform:translateY(-6px)}
+    .personal-traits{display:flex;flex-wrap:wrap;gap:10px}
+    .trait-tag{background:rgba(243,186,47,0.08);color:var(--accent);padding:8px 14px;border-radius:20px;font-size:.95rem}
+    .footer{margin-top:64px;padding-top:20px;border-top:1px solid #222;color:var(--muted);font-size:.9rem}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media (max-width:600px){body{padding:18px}.site{padding:28px 12px}}
+    @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Your Name",
+    "jobTitle":"资深产品经理",
+    "description":"专注加密货币 CEX 平台业务，拥有深厚的 0 到 1 产品设计与增长经验。",
+    "email":"mailto:yourname@example.com",
+    "sameAs":["https://t.me/yourhandle"]
+  }
+  </script>
+</head>
+<body>
+  <a class="sr-only" href="#main">跳到主体内容</a>
+  <div class="site" id="site">
+    <header role="banner" aria-label="站点页眉">
+      <h1>Your Name</h1>
+      <p class="tagline">资深产品经理 | 10年+ 经验 | Crypto Native</p>
+    </header>
+
+    <main id="main" role="main" aria-label="主要内容">
+      <section aria-labelledby="core">
+        <h2 id="core">核心领域</h2>
+        <p>专注加密货币 CEX 平台业务，拥有深厚的 <strong>0 到 1</strong> 产品设计与增长经验。</p>
+        <div class="skill-grid" role="list">
+          <div class="skill-item" role="listitem">OTC 交易</div>
+          <div class="skill-item" role="listitem">KYC/合规</div>
+          <div class="skill-item" role="listitem">理财借贷</div>
+          <div class="skill-item" role="listitem">Launchpad</div>
+          <div class="skill-item" role="listitem">资产安全</div>
+          <div class="skill-item" role="listitem">产品架构</div>
+        </div>
+      </section>
+
+      <section aria-labelledby="traits">
+        <h2 id="traits">个人特质</h2>
+        <div class="personal-traits" aria-hidden="false">
+          <span class="trait-tag">♠️ 50万手德扑爱好者</span>
+          <span class="trait-tag">₿ 加密货币长期持有者</span>
+          <span class="trait-tag">🍳 天赋型厨艺达人</span>
+          <span class="trait-tag">🌍 数字游民</span>
+        </div>
+        <p style="margin-top:16px;color:var(--muted);">
+          “德扑教给我风险概率与博弈思维，厨艺让我理解极致的产品打磨，而加密货币是我坚守的数字理想主义。”
+        </p>
+      </section>
+
+      <section aria-labelledby="contact">
+        <h2 id="contact">联系方式</h2>
+        <p>正在寻找下一个有趣的 Web3 挑战。欢迎随时交流：</p>
+        <p>Email: <a href="mailto:yourname@example.com" aria-label="发送邮件给 yourname">yourname@example.com</a></p>
+        <p>Telegram: <a href="https://t.me/yourhandle" target="_blank" rel="noopener noreferrer">@yourhandle</a></p>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      © 2026 Crafted by Gemini. 保持饥饿，保持链上。
+    </footer>
+  </div>
+</body>
+</html>
